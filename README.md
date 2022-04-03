@@ -1,2 +1,2 @@
-# Functional-programming-
-Functional programming at MAI
+# Functional-programming
+Функциональное программирование (МАИ. 3-й курс)
