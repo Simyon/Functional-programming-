@@ -14,7 +14,7 @@
 (defun print-matrix (matrix &optional (chars 3) stream)
   (let ((*print-right-margin* (+ 6 (* (1+ chars) 
                                       (array-dimension matrix 1)))))
-    (pprint matrix stream)
+    (pprint matrix stream) ; !pprint в GCL из-за старости стандарта не переносит строки
     (values)))
 
 
